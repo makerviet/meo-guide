@@ -1,4 +1,10 @@
 # Các phần mềm cần cài đặt
+## Cài đặt driver cho mạch esp
+Dưới đây là link bộ cài đặt tương ứng cho từng hệ điều hành:
+- [Windows](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_WINDOWS.zip)
+- [Mac OS X](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_MAC-1.4.zip)
+- [Linux](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_LINUX.ZIP)
+
 ## Arduino IDE
 Chúng ta sẽ sử dụng Arduino IDE để nạp phần mềm cho mạch ESP8266
 
