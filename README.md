@@ -14,16 +14,16 @@ Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích 
 
 #### Bước 1: Thêm đường dẫn để tải các package cho NodeMCU vào Arduino IDE.
 
-1. Khởi động Arduino IDE, từ màn hình chính chọn File → Preferences. 
-2. Thêm đường dẫn bên dưới vào mục Addition Boards Manager URLs: http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
+1. Khởi động Arduino IDE, từ màn hình chính chọn **File → Preferences**. 
+2. Thêm đường dẫn bên dưới vào mục **Addition Boards Manager URLs**: http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
 3. Kết quả sau cùng sẽ như ảnh bên dưới
 
 ![](https://raw.githubusercontent.com/makerhanoi/meo-guide/master/step1.png "Thêm đường dẫn tải các package cho NodeMCU vào Arduino IDE")
 
 #### Bước 2: Cài đặt Board esp8266
 
-1. Từ giao diện chính của Arduino IDE, chọn *Tools → Board → Board Managers* ...
-2. Tại thanh tìm kiếm của hộp thoại **Board Managers** ta nhập vào *esp8266*, chọn Install để tiến hành tải, cài đặt thư viện 
+1. Từ giao diện chính của Arduino IDE, chọn **Tools → Board → Board Managers** ...
+2. Tại thanh tìm kiếm của hộp thoại **Board Managers** ta nhập vào `esp8266`, chọn Install để tiến hành tải, cài đặt thư viện 
 
 ![](https://raw.githubusercontent.com/makerhanoi/meo-guide/master/step2.png "Cài đặt board esp8266 vào Arduino IDE")
 
