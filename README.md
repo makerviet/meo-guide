@@ -1,14 +1,14 @@
 # Các phần mềm cần cài đặt
-## Cài đặt driver cho mạch esp
+## 1. Cài đặt driver cho mạch esp
 Dưới đây là link bộ cài đặt tương ứng cho từng hệ điều hành:
 - [Windows](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_WINDOWS.zip)
 - [Mac OS X](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_MAC-1.4.zip)
 - [Linux](https://github.com/makerhanoi/meo-guide/raw/master/esp8266-drivers/CH341SER_LINUX.ZIP)
 
-## Arduino IDE
+## 2. Arduino IDE
 Chúng ta sẽ sử dụng Arduino IDE để nạp phần mềm cho mạch ESP8266
 
-### Cài đặt Arduino IDE
+### 2.a Cài đặt Arduino IDE
 Các bạn nên sử dụng phiên bản Arduino 1.8.2 hoặc cao hơn, các bạn có thể tham khảo link hướng dẫn cài đặt tương ứng cho các hệ điều hành ở dưới đây:
 - [Windows 10](https://www.arduino.cc/en/Guide/Windows)
 - [Mac OS X](https://www.arduino.cc/en/Guide/MacOSX)
@@ -16,7 +16,7 @@ Các bạn nên sử dụng phiên bản Arduino 1.8.2 hoặc cao hơn, các b�
 
 Trong trường hợp các bạn dùng bản Windows thấp hơn Windows 10 hoặc phiên bản Mac OS X của bạn không hỗ trợ thì có thể sự dụng Docker Toolbox [tại đây](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
-### Cài đặt thư viện 
+### 2.b Cài đặt thư viện 
 
 Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích hợp hỗ trợ cho ESP8266.
 
@@ -35,7 +35,7 @@ Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích 
 
 ![](https://raw.githubusercontent.com/makerhanoi/meo-guide/master/step2.png "Cài đặt board esp8266 vào Arduino IDE")
 
-## Cài đặt Docker
+## 3. Cài đặt Docker
 Bạn sẽ cần cài Docker nếu bạn muốn sử dụng chính máy tính cá nhân của mình để làm server quản lý các mạch esp8266.
 
 Link hướng dẫn cài đặt cho Windows và Mac OS X:
