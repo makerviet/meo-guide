@@ -16,7 +16,7 @@ Các bạn nên sử dụng phiên bản Arduino 1.8.2 hoặc cao hơn, các b�
 
 Trong trường hợp các bạn dùng bản Windows thấp hơn Windows 10 hoặc phiên bản Mac OS X của bạn không hỗ trợ thì có thể sự dụng Docker Toolbox [tại đây](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
-### 2.b Cài đặt thư viện 
+### 2.b Cài đặt thư viện hỗ trợ mạch ESP
 
 Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích hợp hỗ trợ cho ESP8266.
 
@@ -34,6 +34,14 @@ Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích 
 2. Tại thanh tìm kiếm của hộp thoại **Board Managers** ta nhập vào `esp8266`, chọn Install để tiến hành tải, cài đặt thư viện 
 
 ![](https://raw.githubusercontent.com/makerhanoi/meo-guide/master/step2.png "Cài đặt board esp8266 vào Arduino IDE")
+
+### 2.c Cài đặt thư viện hỗ trợ cho firmware của mạch ESP
+
+1. Tải file nén chứa các thư viện [tại đây](https://github.com/makerhanoi/meo-guide/raw/master/support-tools/arduino-library.zip)
+2. Giải nén các file trong file zip này vào thư mục sau (chọn thư mục tương ứng với hệ điều hành):
+- Windows: **C:\Users\<USERNAME>\Documents\Arduino\libraries**
+- Mac OS X: **/Users/<USERNAME>/Documents/Arduino/libraries**
+- Linux: **/home/<USERNAME>/Arduino/libraries**
 
 ## 3. Cài đặt Docker
 Bạn sẽ cần cài Docker nếu bạn muốn sử dụng chính máy tính cá nhân của mình để làm server quản lý các mạch esp8266.
