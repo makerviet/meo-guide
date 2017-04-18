@@ -22,7 +22,7 @@ Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích 
 
 #### Bước 1: Thêm đường dẫn để tải các package cho NodeMCU vào Arduino IDE.
 
-1. Khởi động Arduino IDE, từ màn hình chính chọn **File → Preferences**. 
+1. Khởi động Arduino IDE, từ màn hình chính chọn **File → Preferences**.
 2. Thêm đường dẫn bên dưới vào mục **Addition Boards Manager URLs**: http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
 3. Kết quả sau cùng sẽ như ảnh bên dưới
 
@@ -31,7 +31,7 @@ Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích 
 #### Bước 2: Cài đặt Board esp8266
 
 1. Từ giao diện chính của Arduino IDE, chọn **Tools → Board → Board Managers** ...
-2. Tại thanh tìm kiếm của hộp thoại **Board Managers** ta nhập vào `esp8266`, chọn Install để tiến hành tải, cài đặt thư viện 
+2. Tại thanh tìm kiếm của hộp thoại **Board Managers** ta nhập vào `esp8266`, chọn Install để tiến hành tải, cài đặt thư viện
 
 ![](https://raw.githubusercontent.com/makerhanoi/meo-guide/master/step2.png "Cài đặt board esp8266 vào Arduino IDE")
 
@@ -50,6 +50,9 @@ Link hướng dẫn cài đặt cho Windows và Mac OS X:
 
 - [Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Mac OS X](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+
+Các bạn có thể xem hướng dẫn cài đặt Docker cho các bản phân phối của Linux [tại đây](https://www.docker.com/community-edition#/download), ví dụ như:
+- [Ubuntu](https://store.docker.com/editions/community/docker-ce-server-ubuntu?tab=description)
 
 Riêng Ubuntu sẽ phải cài riêng docker và docker-compose vì không có bản gộp như bên Windows và Mac OS X, các bạn có thể tìm trên mạng về hướng dẫn cài đặt 2 phần mềm này. Có một cách cài đặt nhanh dành cho Ubuntu tuy nhiên chúng tôi không chắc chắn 100% sẽ hoạt động trên mọi phiên bản khác nhau của Linux (do at your own risk):
 
