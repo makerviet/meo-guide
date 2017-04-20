@@ -14,8 +14,6 @@ Các bạn nên sử dụng phiên bản Arduino 1.8.2 hoặc cao hơn, các b�
 - [Mac OS X](https://www.arduino.cc/en/Guide/MacOSX)
 - [Linux](https://www.arduino.cc/en/Guide/Linux)
 
-Trong trường hợp các bạn dùng bản Windows thấp hơn Windows 10 hoặc phiên bản Mac OS X của bạn không hỗ trợ thì có thể sự dụng Docker Toolbox [tại đây](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
-
 ### 2.b Cài đặt thư viện hỗ trợ mạch ESP
 
 Khi sử dụng NodeMCU ESP8266 thì cần cài đặt thư viện tích hợp hỗ trợ cho ESP8266.
@@ -50,6 +48,8 @@ Link hướng dẫn cài đặt cho Windows và Mac OS X:
 
 - [Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Mac OS X](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+
+Trong trường hợp các bạn dùng bản Windows thấp hơn Windows 10 hoặc phiên bản Mac OS X của bạn không hỗ trợ thì có thể sự dụng Docker Toolbox [tại đây](https://docs.docker.com/toolbox/overview/#ready-to-get-started)
 
 Các bạn có thể xem hướng dẫn cài đặt Docker cho các bản phân phối của Linux [tại đây](https://www.docker.com/community-edition#/download), ví dụ như:
 - [Ubuntu](https://store.docker.com/editions/community/docker-ce-server-ubuntu?tab=description)
